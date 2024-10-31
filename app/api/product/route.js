@@ -2,7 +2,7 @@
 
 import { MongoClient } from "mongodb";
 import { NextResponse } from "next/server";
-import uploadthing from "uploadthing";
+// import uploadthing from "uploadthing";
 
 export async function GET(request) {
   const uri =
